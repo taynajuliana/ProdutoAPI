@@ -35,13 +35,15 @@ Exclui o produto com o ID especificado.
 
 ## Exemplo de uso
 Para criar um novo produto, envie uma solicitação POST para a rota /api/produtos com o seguinte corpo:
-
+```
 {
     "id": 0,
     "nome": "Produto A",
     "preco": 9.99,
     "descricao": "Este é o produto A"
 }
+```
+
 
 ## Contribuição
 Este é um projeto simples e qualquer contribuição é bem-vinda! Sinta-se livre para enviar um pull request com melhorias ou correções de erros.
